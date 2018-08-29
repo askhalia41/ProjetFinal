@@ -1,8 +1,10 @@
-package fr.m2i.formation.util;
+package com.m2i.formation.util;
 
 import static org.junit.Assert.assertTrue;
 
 import org.junit.Test;
+
+import com.m2i.formation.util.EncryptUtil;
 
 public class EncryptUtilTest {
 

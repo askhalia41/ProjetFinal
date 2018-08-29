@@ -41,9 +41,12 @@
 	</beans:bean>
 
 	<!-- Déclaration de la DATASOURCES -->
-	<beans:bean id="datasource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
+	<beans:bean id="datasource"
+		class="org.springframework.jdbc.datasource.DriverManagerDataSource">
 		<beans:property name="driverClassName" value="${db.driver}" />
 		<beans:property name="url" value="${db.url}" />
 		<beans:property name="username" value="${db.login}" />
 		<beans:property name="password" value="${db.password}" />
 	</beans:bean>
+	
+	</beans:beans>

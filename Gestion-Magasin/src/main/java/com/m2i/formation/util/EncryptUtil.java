@@ -1,4 +1,4 @@
-package fr.m2i.formation.util;
+package com.m2i.formation.util;
 
 import org.apache.log4j.Logger;
 import org.mindrot.jbcrypt.BCrypt;

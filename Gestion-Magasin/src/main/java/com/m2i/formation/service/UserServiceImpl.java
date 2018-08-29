@@ -5,8 +5,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 
 import com.m2i.formation.dao.IUserDAO;
 import com.m2i.formation.dao.entity.User;
-
-import fr.m2i.formation.util.EncryptUtil;
+import com.m2i.formation.util.EncryptUtil;
 
 public class UserServiceImpl implements IUserService {
 

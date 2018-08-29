@@ -1,4 +1,4 @@
-package fr.m2i.formation.dao;
+package com.m2i.formation.dao;
 
 public interface IProviderDAO {
 
